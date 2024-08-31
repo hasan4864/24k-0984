@@ -1,0 +1,139 @@
+PF lab assignment, Muhammad Hasan Nawaz, 0984
+
+TASK#1
+Q1
+1.	START
+2.	
+3.	INPUT Number
+4.	
+5.	IF (Number % 5 == 0) THEN
+6.	      PRINT "The number is a multiple of 5."
+7.	ELSE
+8.	      PRINT "The number is not a multiple of 5.”
+9.	
+10.	END
+
+Q2
+1.	START
+2.	
+3.	INPUT Character
+4.	
+5.	IF (Character >= 'A' AND Character <= 'Z') THEN
+6.	        PRINT "The character is uppercase."
+7.	ELSE IF (Character >= 'a' AND Character <= 'z') THEN
+8.	        PRINT "The character is lowercase."
+9.	ELSE
+10.	        PRINT "The character is neither uppercase nor lowercase."
+11.	
+12.	END
+
+
+
+
+
+
+
+
+Q3
+1.	START
+2.	  
+3.	INPUT Number1
+4.	INPUT Number2
+5.	INPUT Operator
+6.	
+7.	IF (Operator = '+') THEN
+8.	      Result = Number1 + Number2
+9.	      PRINT "The result of the addition is: ", Result
+10.	ELSE 
+11.	        Result = Number1 * Number2
+12.	        PRINT "The result of the multiplication is: ", Result
+13.	
+14.	END
+
+Q4
+1.	START
+2.	   
+3.	INPUT Number
+4.	
+5.	IF (Number > 0) THEN
+6.	        PRINT "The number is positive."
+7.	ELSE IF (Number < 0) THEN
+8.	        PRINT "The number is negative."
+9.	ELSE
+10.	        PRINT "The number is zero."
+11.	
+12.	END
+
+
+
+
+
+
+
+
+Q5
+1.	START
+2.	
+3.	INPUT Age
+4.	
+5.	IF (Age >= 13 AND Age <= 19) THEN
+6.	      PRINT "The person is a teenager."
+7.	ELSE
+8.	      PRINT "The person is not a teenager."
+9.	
+10.	END
+
+
+TASK#2
+Q1
+1.	Start
+2.	Input the year
+3.	Check if the year is divisible by 4
+4.	If the year is divisible by 4, then check if it is divisible by 100
+5.	If the year is also divisible by 100, then check if it is divisible by 400
+6.	If the year is divisible by 400, it is a leap year
+7.	If the year is not divisible by 400, it is not a leap year
+8.	If the year is divisible by 100 but not by 400, it is not a leap year
+9.	If the year is divisible by 4 but not by 100, it is a leap year
+10.	If the year is not divisible by 4, it is not a leap year
+11.	End
+
+Q2
+
+1.	Start
+2.	Read the given string.
+3.	Create an empty dictionary to store character counts.
+4.	For each character in the string:
+5.	If the character is in the dictionary, increment its count.
+6.	If the character is not in the dictionary, add it with a count of 1.
+7.	Print each character and its count.
+8.	End
+
+
+
+Q3
+1.	Set the result to 1.
+2.	If y is 0, set the result to 1.
+3.	If y is greater than 0, 
+4.	Multiply the result by x for a number of y times
+5.	 If y is less than 0,
+6.	Set y to the absolute value of y.
+7.	Multiply the result by x for a number of y times
+8.	Set the result to 1/result
+9.	the result you will obtain will be x^y
+
+
+Q4
+1.	 Read the radius of the circle (r).
+2.	 Square the radius (compute r^2).
+3.	 Multiply the squared radius by π.
+4.	 return the result as the area of the circle
+
+
+Q5
+1.	Read the three numbers “A, B, C”
+2.	Compare the three given numbers
+3.	If “A>=B” and “A<=C” then A is the median
+4.	If “B>=A” and “B<=C” then B is the median
+5.	If “C>=A” and “C<=B” then C is the median
+
